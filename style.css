@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 4rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.900);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 0 30px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    font-family: "jost", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    bottom: -0.5rem;
+    border-bottom: 2px solid white;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: "jost", sans-serif;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+nav span {
+    display: none;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.show-ul {
+    display: block;
+    background: rgba(0, 0, 0, 0.600);
+    color: #fff;
+    position: absolute;
+    top: 4rem;
+    right: 0px;
+    padding: 20px 10px;
+    width: 100vw;
+    text-align: center;
+    height: calc(100vh - 5rem);
+    transition: 0.3s ease;
+    overflow-y: auto;
+}
+
+.main-container {
+    height: calc(100vh - 4rem);
+    width: 100%;
+    background-image: url(assets/bg-hero.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.over-lap{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.850);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    width: 80%;
+    /* background-color: red; */
+}
+.main-content h1{
+    color: #fff;
+    font-family: "jost",sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+.main-container p{
+    color: white;
+    text-align: center;
+    font-family: "jost",sans-serif;
+
+}
+
+.main-container .btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.main-container .btn-container a{
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: "jost",sans-serif;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 0.3rem;
+    transition: 0.3s ;
+    text-decoration: none;
+}
+
+.main-container .btn-container a:hover{
+    background-color: red;
+    color: #fff;
+    box-shadow: 0 0 2rem 2px red;
+}
+

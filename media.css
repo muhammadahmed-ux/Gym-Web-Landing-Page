@@ -1,0 +1,33 @@
+@media (max-width:768px){
+     nav ul {
+        display: none;
+        position: relative;
+        z-index: 3;
+        transition: 0.4s;
+    }
+
+    nav ul li {
+        margin-top: 1.2rem;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    nav span {
+        display: block;
+    }
+
+    nav {
+        padding: 0 1rem;
+    }
+
+    .main-content h1{
+        font-size: 2.5rem;
+    }
+    .main-content p{
+        margin-top: 0.5rem;
+    }
+}
