@@ -23,7 +23,7 @@
                 <li><a href="#">About</a></li>
                 <li><a href="#">Other</a></li>
             </ul>
-            <span><i class="fa-solid fa-bars"></i></span>
+            <span id="menu-btn"><i class="fa-solid fa-bars"></i></span>
         </nav>
         <div class="main-container">
             <div class="over-lap">
@@ -40,10 +40,10 @@
     </header>
 </body>
 <script>
-     const btn = document.querySelector('span')
-    const menu = document.querySelector('#menu-bar')
-    btn.addEventListener('click', () => {
-        menu.classList.toggle('show-ul')
+     const Navlinks = document.querySelector('#menu-bar')
+    const Menubtn = document.querySelector('#menu-btn')
+    Menubtn.addEventListener('click', () => {
+        Navlinks.classList.toggle('show-ul')
     })
 </script>
 </html>

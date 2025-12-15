@@ -61,7 +61,7 @@ nav ul li a:hover::after {
 
 }
 
-nav span {
+ nav span {
     display: none;
     font-size: 1.5rem;
     color: #fff;
@@ -116,6 +116,7 @@ nav span {
     color: white;
     text-align: center;
     font-family: "jost",sans-serif;
+    letter-spacing: 1px;
 
 }
 
@@ -139,11 +140,12 @@ nav span {
     border-radius: 0.3rem;
     transition: 0.3s ;
     text-decoration: none;
+    box-shadow: 0 0 0.5rem 2px red;
 }
 
 .main-container .btn-container a:hover{
     background-color: red;
     color: #fff;
-    box-shadow: 0 0 2rem 2px red;
+    box-shadow: 0 0 2rem 10px red;
 }
 
