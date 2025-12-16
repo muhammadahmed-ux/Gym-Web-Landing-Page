@@ -19,46 +19,163 @@
             <div class="logo">FitZone</div>
             <ul id="menu-bar">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Other</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Other</a></li>
             </ul>
             <span id="menu-btn"><i class="fa-solid fa-bars"></i></span>
         </nav>
         <div class="main-container">
             <div class="over-lap">
-<div class="main-content">
-    <h1>Welcome To FitZone Gym</h1>
-    <p>Get fit with the best, shop our premium dumbbells collection now and start your fitness journey with strength and confidence!</p>
-    <div class="btn-container">
-    <a href="">Check Now </a>
-    </div>
-</div>
+                <div class="main-content">
+                    <h1>Welcome To <span>FitZone</span> Gym</h1>
+                    <p>Get fit with the best, shop our premium dumbbells collection now and start your fitness journey
+                        with strength and confidence!</p>
+                    <div class="btn-container">
+                        <a href="#Products">Check Now </a>
+                    </div>
+                </div>
 
             </div>
         </div>
     </header>
+    <main>
+        <section id="Products">
+            <div class="products-section">
+                <div class="product-heading">
+                    <h2>ProDucts</h2>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="over-card">
+                            <div class="image-container">
+                                <img src="assets/card-1.png">
+                            </div>
+                            <div class="text-container">
+                                <h4>Bounce Dumble</h4>
+                                <p>Bounce dumbbells offer excellent grip durability</p>
+                                <span>Price 40$</span>
+                                <div class="btn-container">
+                                    <button>Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card">
+                        <div class="over-card">
+                            <div class="image-container">
+                                <img src="assets/card-2.png">
+                            </div>
+                            <div class="text-container">
+                                <h4>Titan Dumble</h4>
+                                <p>Titan dumbbells offer exceptional quality durability</p>
+                                <span>Price 50$</span>
+                                <div class="btn-container">
+                                    <button>Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card">
+                        <div class="over-card">
+                            <div class="image-container">
+                                <img src="assets/card-3.png" id="set">
+                            </div>
+                            <div class="text-container">
+                                <h4>Normal Dumble</h4>
+                                <p>Normal dumbbells offer decent quality durability</p>
+                                <span>Price 20$</span>
+                                <div class="btn-container">
+                                    <button>Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about">
+            <div class="about-section">
+                <div class="about-container">
+                    <div class="over-rated">
+                        <div class="about">
+                            <h2>About</h2>
+                            <p>Welcome to our gym dumbbells website! We offer high-quality, durable, and affordable
+                                dumbbells for home and commercial use, helping you achieve your fitness goals with
+                                confidence and strength</p>
+                            <button>Contact Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="contact">
+            <footer class="footer">
+                <div class="footer-container">
+
+                    <!-- About -->
+                    <div class="footer-box">
+                        <h3>About Us</h3>
+                        <p>
+                            welcome to our gym dumbbells website! We offer high-quality, durable, and affordable
+                            dumbbells for home and commercial use, helping you achieve your fitness goals with
+                            confidence and strength
+                        </p>
+                    </div>
+
+                    <div class="footer-box">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#Products">Products</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-box">
+                        <h3>Contact Us</h3>
+                        <p><i class="fa-solid fa-location-dot"></i> Karachi, Pakistan</p>
+                        <p><i class="fa-solid fa-phone"></i> +92 00000000</p>
+                        <p><i class="fa-solid fa-envelope"></i> fitzone@gym.com</p>
+                    </div>
+
+                    <div class="footer-box">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer-bottom">
+                    <p>© 2025 Pizza Shop. All Rights Reserved.</p>
+                </div>
+            </footer>
+
+        </section>
+    </main>
 </body>
 <script>
-     const Navlinks = document.querySelector('#menu-bar')
+    const Navlinks = document.querySelector('#menu-bar')
     const Menubtn = document.querySelector('#menu-btn')
     Menubtn.addEventListener('click', () => {
         Navlinks.classList.toggle('show-ul')
     })
 </script>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- card-1 bounce dumble -->
-<!-- card-2 titan fitness -->
