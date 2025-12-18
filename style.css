@@ -352,22 +352,20 @@ nav span {
     font-weight: 900;
     margin-top: 1rem;
     cursor: pointer;
-    background-color: #fff;
-    color: black;
+    background-color: red;
+    color: #fff;
     transition: 0.5s ease-in-out;
+    box-shadow: 0 0 0.2rem 0.1rem red;
 }
 
 .about button:hover {
-    background-color: red;
     box-shadow: 0 0 1.2rem 0.5rem red;
-    color: #fff;
 }
 
 
 
 
 
-/* footer */
 
 
 .footer {
@@ -440,14 +438,7 @@ nav span {
     background-color: red;
     color: black;
     cursor: pointer;
+    box-shadow: 0 0 1rem .2rem red;
 }
 
 
-.footer-bottom {
-    border-top: 1px solid #333;
-    margin-top: 40px;
-    text-align: center;
-    padding-top: 15px;
-    font-size: 14px;
-    color: #aaa;
-}
